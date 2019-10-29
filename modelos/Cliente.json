@@ -1,0 +1,32 @@
+{
+    "dados_obrigatorios": {
+        "nome": "String",
+        "email": "String"
+    },
+    "dados_nao_obrigatorios": {
+        "telefone": {
+            "celular": "String",
+            "comercial": "String",
+            "residencial": "String"
+        },
+        "cpf": "String",
+        "rg": "String",
+        "data_nasc": "Date",
+        "sexo": "String",
+        "endereco": {
+            "logradouro" : "String",
+            "numero": "Number",
+            "complemento": "String",
+            "bairro": "String",
+            "cidade": "String",
+            "cep": "String"
+            
+        },
+        "saude": {
+            "alergiaProduto": "String",
+            "produto": ["String"]
+            },
+        "como_conheceu": "String"
+    },
+    "acoes": ["store", "show"]
+}

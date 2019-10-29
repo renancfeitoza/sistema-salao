@@ -1,0 +1,30 @@
+{
+    "dados_obrigatorios": {
+        "email": "String",
+        "usuario": "String",
+        "senha": "String",
+        "data_criacao": "Date",
+        "status": "String",
+        "telefone": {
+            "residencial": "String",
+            "celular": "String",
+            "comercial": "String"
+        },
+        "seguimento": ["String"]
+    },
+    "dados_nao_obrigatorios": {
+        "cpf": "String",
+        "rg": "String",
+        "endereco": {
+            "logradouro" : "String",
+            "numero": "Number",
+            "complemento": "String",
+            "bairro": "String",
+            "cidade": "String",
+            "estado": "String",
+            "cep": "String"
+        }
+    },
+    "acoes_na_collection": ["store"]
+}
+

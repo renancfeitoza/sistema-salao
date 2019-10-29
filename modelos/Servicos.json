@@ -1,0 +1,9 @@
+{
+    "dados_obrigatorios": {
+        "nome": "String",
+        "descricao": "String",
+        "valor": "ObjectId",
+        "data": "Date",
+        "tempo_atendimento": "Number"
+    }
+}

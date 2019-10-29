@@ -1,0 +1,10 @@
+{
+    "dados_obrigatorios": {
+        "cliente_id": "ObjectId",
+        "funcionario_id": "ObjectId",
+        "servico_id": "ObjectId",
+        "produto_id": "ObjectId",
+        "data": "Date",
+        "tempo_atendimento": "Number"
+    }
+}

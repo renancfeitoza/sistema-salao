@@ -1,0 +1,27 @@
+{
+    "dados_obrigatorios": {
+        "nome": "String",
+        "usuario": "String",
+        "email": "String",
+        "senha": "String",
+        "data_criacao": "Date",
+        "atividades": ["String"],
+        "vinculo": "String",
+        "permissoes": "String"
+    },
+    "dados_nao_obrigatorios": {
+        "cpf": "String",
+        "rg": "String",
+        "data_nasc": "Date",
+        "endereco": {
+            "logradouro" : "String",
+            "numero": "Number",
+            "complemento": "String",
+            "bairro": "String",
+            "cidade": "String",
+            "cep": "String"
+        },
+        "admissao": "Date"
+    },
+    "acoes": ["store", "index", "show"]
+}
