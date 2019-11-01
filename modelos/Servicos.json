@@ -5,5 +5,6 @@
         "valor": "ObjectId",
         "data": "Date",
         "tempo_atendimento": "Number"
-    }
+    },
+    "acoes": ["store", "index", "update"]
 }

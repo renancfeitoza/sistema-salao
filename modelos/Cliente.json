@@ -28,5 +28,5 @@
             },
         "como_conheceu": "String"
     },
-    "acoes": ["store", "show"]
+    "acoes_na_collection": ["store", "index", "update"]
 }

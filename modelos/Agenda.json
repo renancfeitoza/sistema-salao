@@ -4,7 +4,9 @@
         "funcionario_id": "ObjectId",
         "servico_id": "ObjectId",
         "produto_id": "ObjectId",
-        "data": "Date",
+        "data_agendada": "Date",
         "tempo_atendimento": "Number"
-    }
+    },
+    "acoes_na_collection": ["store","index","update"]
 }
+

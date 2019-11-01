@@ -25,9 +25,14 @@
                     "quantidade": "Number",
                     "custo": "Number"
                 }
-            ]
-            },
-            "saida": 
+            ],
+            "saida": [
+                {
+                    "data":"Date",
+                    "quantidade": "Number"
+                }
+            ] 
+        }
     },
-    "acoes": ["store", "index"]
+    "acoes": ["store", "index", "update"]
 }

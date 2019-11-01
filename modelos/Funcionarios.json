@@ -23,5 +23,5 @@
         },
         "admissao": "Date"
     },
-    "acoes": ["store", "index", "show"]
+    "acoes": ["store", "index", "show", "update"]
 }

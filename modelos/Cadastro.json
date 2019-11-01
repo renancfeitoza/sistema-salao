@@ -25,6 +25,6 @@
             "cep": "String"
         }
     },
-    "acoes_na_collection": ["store"]
+    "acoes_na_collection": ["store","index"]
 }
 
