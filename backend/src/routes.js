@@ -1,8 +1,10 @@
-const e = require("express");
+const e = require('express');
 const routes = e.Router();
+const SessionController = require('./Controllers/SessionController')
+const AgendaController = require('./Controllers/AgendaController')
 
-routes.get("/", (req,res) => {
-    res.send("<h1>teste</h1>")
-});
+routes.post("/agenda", AgendaController.store);
+routes.post("/session", SessionController.store)
+routes.post("/login", SessionController.show)
 
 module.exports = routes;
